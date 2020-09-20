@@ -1,3 +1,4 @@
+// Dependencies
 const fs = require("fs");
 const util = require("util");
 const uniqid = require("uniqid");
@@ -5,6 +6,7 @@ const uniqid = require("uniqid");
 const readFileSync = util.promisify(fs.readFile)
 const writeFileSync = util.promisify(fs.writeFile)
 
+// Class that holds callback functions
 class Store {
     read(){
         return readFileSync("db/db.json", "utf8");
