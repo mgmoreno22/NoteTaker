@@ -13,8 +13,8 @@
 
   [Questions](#questions)
   ## Description
-  This program allows a user to write and delete notes on a website deployed on Heroku. 
-  Heroku link:
+  This program allows a user to write and delete notes on a website deployed on Heroku.<br> 
+  Heroku link:<br>
   [Heroku](https://nameless-sands-12238.herokuapp.com/)
 
   ## Installation
